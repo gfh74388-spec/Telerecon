@@ -69,7 +69,7 @@ If overwhelmed, try using the sample targeting workflow provided later in the Re
 
 5. **Scrape all messages within a channel:**  Collect and compile messages in a target channel. 
 
-6. **Scrape all t.me URLs from within a channel:**  parses a channel and extracts all t.me URLs mentioned within. This is designed to easily create a Telegram directory.
+6. **Scrape all t.me URLs from within a channel:**  parses a channel/group and extracts all t.me URLs mentioned within. Supports seed lists, depth-limited discovery, and optional quick search using Telegram's message search to reduce full-history scans.
 
 7. **Scrape forwarding relationships into target channel:**  Scrape forwarding relationships into a target channel. Exporting a Gephi optimised adjacency list, and URL directory of the discovered channels.
 
